@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Foxtrot";
+    src: url("../../../public/fonts/P22Foxtrot.ttf");
+}
+
+
+.main_box {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.main_box Image{
+    margin-right: 100px;
+}
+
+.register_container {
+    flex: 1;
+}
+
+.register_box{
+    display: list-items;
+    padding: 10px;
+    margin-left: 50px;
+    height: 650px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-right: 110px;
+    width: 684px;
+    background: white;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.register_image {
+    margin-left: 50px;
+}
+
+.form {
+    margin-left: 50px;
+}
+
+.form label {
+    font-size: 50px;
+    color: black;
+    font-family: "Foxtrot";
+}
+
+.form input {
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 500px;
+    background: #fff;
+    height: 50px;
+    color:black;
+    font-size: 30px;
+}
+
+.button {
+    height: 80px;
+    width: 350px;
+    background: #FF9D29;
+    background: rgba(255, 157, 41, 0.1);
+    font-size: 50px;
+    border-radius: 30px;
+    color: #FF9029;
+    margin-top: 80px;
+    border: 1px solid #FF9029;
+    margin-left: 100px;
+}

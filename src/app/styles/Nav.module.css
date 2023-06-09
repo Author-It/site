@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Myfont";
+  src: url('../../../public/fonts/Meedori.ttf');
+}
+
+.nav {
+  background-color: #FFE4C5;
+  display: flex;
+  width: 100%;
+  height: 5%;
+  align-items: center;
+  padding-right: 30px;
+  user-select: none; 
+}
+.nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 30px;
+  align-items: center;
+}
+.nav_router li {
+  color: black;
+  margin: 16px;
+  font-size: 1.25rem;
+  /* font-family: 'Inter', sans-serif; */
+  cursor: pointer;
+}
+
+.logo_main{
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.nav_router {
+  flex: 1;
+  font-family: 'Inter', sans-serif;
+}
+
+.account_action li {
+  margin-left: 30px;
+}
+
+.register {
+  padding: 10px;
+  border: 2px solid #FF5D29;
+  transition: all 0.5s ease-out;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Myfont";
+  background: #FF5D29;
+}
+
+.register:hover{
+  color: #FF5D29;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.login {
+  color: #FF5D29;
+  margin: 10px;
+  font-size: 1.25rem;
+  font-family: "Myfont";
+}
+
+/* new nav props */
+.scrollingText {
+  animation: scroll 8s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

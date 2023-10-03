@@ -493,11 +493,11 @@ const Tiptap = ({ id }) => {
       {/* menu bar */}
       <MenuBar editor={editor} />
 
-      <div className='flex flex-col h-[800px] bg-[#0C0F15]'>
+      <div className='flex flex-col h-full bg-[#0C0F15]'>
 
         {/* Editor */}
         <div className='flex justify-centre mt-4'>
-          <div className='w-[55%] h-[700px] align-middle justify-centre mx-auto bg-white text-black p-6 rounded-lg'>
+          <div className='w-[55%] h-full align-middle justify-centre mx-auto bg-white text-black p-6 rounded-lg'>
             <EditorContent
               editor={editor}
               className="border-none"

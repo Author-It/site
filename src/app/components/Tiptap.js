@@ -2,7 +2,6 @@
 import React, { useEffect, useState, useCallback } from 'react'
 
 import '../styles/tiptap.scss'
-import styles from "@component/styles/Tiptap.module.css";
 import { useEditor, EditorContent } from '@tiptap/react';
 
 // Toast

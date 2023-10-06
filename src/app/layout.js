@@ -3,6 +3,8 @@ import "./globals.css";
 import Navbar from '@component/components/Navbar.js';
 import Provider from '@component/components/Provider.js';
 import { usePathname } from "next/navigation";
+import { Analytics } from '@vercel/analytics/react';
+
 // import '../../public/styles.css'
 //import { AuthContextProvider } from "../context/AuthContext"
 
@@ -26,6 +28,7 @@ export default function RootLayout({ children }) {
           <Provider>
             <Navbar />
             {children}
+            <Analytics />
           </Provider>
         </body>
       </html>

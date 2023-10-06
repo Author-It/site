@@ -493,7 +493,7 @@ const Tiptap = ({ id }) => {
       {/* menu bar */}
       <MenuBar editor={editor} />
 
-      <div className='flex flex-col h-[10vh] bg-[#0C0F15]'>
+      <div className='flex flex-col h-[10000vh] bg-[#0C0F15]'>
 
         {/* Editor */}
         <div className='flex justify-centre mt-4'>

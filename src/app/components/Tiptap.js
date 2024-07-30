@@ -44,7 +44,7 @@ Link.configure({
   validate: href => /^https?:\/\//.test(href),
 })
 
-const limit = 5000
+const limit = 20000
 
 const MenuBar = ({ editor }) => {
 
@@ -260,7 +260,7 @@ const Tiptap = ({ id }) => {
         placeholder: 'BLOG STUDIO EDITOR🌍',
       }),
       CharacterCount.configure({
-        limit: 20000,
+        limit: limit,
       }),
       Link.configure({
         openOnClick: false,

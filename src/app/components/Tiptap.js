@@ -260,7 +260,7 @@ const Tiptap = ({ id }) => {
         placeholder: 'BLOG STUDIO EDITOR🌍',
       }),
       CharacterCount.configure({
-        limit: 5000,
+        limit: 20000,
       }),
       Link.configure({
         openOnClick: false,
